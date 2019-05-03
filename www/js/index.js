@@ -21,7 +21,7 @@ var app = {
 			$me.prop("disabled", true);
 			$.ajax({
 				method: "POST",
-				url: localStorage.server + "/api/method/login",
+				url: hrm.gretis.com + "/api/method/login",
 				data: {
 					usr: $("#usr").val(),
 					pwd: $("#pwd").val(),
